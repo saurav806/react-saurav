@@ -1,0 +1,99 @@
+.mainSection{
+    display: flex;
+    /* background-color: yellow; */
+    justify-content: space-around;
+}
+
+.contentBox{
+    width: 40%;
+    /* background-color: orange; */
+    padding-left: 1em;
+}
+
+.contentBox h1{
+    font-size: 2.5em;
+    color: purple;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.contentBox p{
+    font-size: 1.2em;
+    color: purple;
+    margin: 1em 0;
+    
+}
+
+.btnBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.btn{
+    border: 2px solid transparent;
+    border-radius: 2em;
+    background-image: linear-gradient(#fff, #fff),
+    radial-gradient(circle at bottom right, purple,
+    orange);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    
+}
+
+.readmore{
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    color: purple;
+}
+
+.imgcontainer{
+    width:50%;
+
+}
+
+.imgcontainer img{
+    width:90%;
+    /* background-color: yellow; */
+    margin: 0 auto;
+    display: block;
+
+
+}
+
+/* media queries */
+
+@media screen and (max-width:900px){
+    html{
+        font-size: 14px;
+    }
+    .mainSection{
+        flex-direction: column;
+        margin-top: 1em;
+
+    }
+    .contentBox{
+        width: 90%;
+        margin: 0v auto;
+    }
+
+    .contentBox h1{
+        font-size: 2rem;
+
+    }
+    .contentBox p{
+        font-size: 11.rem;
+    }
+    .imgcontainer{
+            width:80%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .imgcontainer{
+        width:60%;
+}
+}

@@ -1,0 +1,19 @@
+.contact{
+    max-width: 990px;
+    margin: 2em auto;
+    /* background-color: yellow; */
+}
+
+input{
+    width: 100%;
+    padding: .7em;
+    margin-bottom: 1em;
+    border: .3em double var(--mainColor);
+    outline: none;
+    font-size: 1.1rem;
+}
+
+label{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
