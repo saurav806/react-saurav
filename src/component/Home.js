@@ -1,6 +1,5 @@
-import { ReadMore } from "@mui/icons-material";
+
 import React from "react";
-import { NavLink } from "react-router-dom";
 import bg from '../images/bg.jpg';
 import '../Css/Home.css';
 import Same from "./Same";
